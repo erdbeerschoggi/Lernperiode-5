@@ -11,11 +11,10 @@ Meine Idee, um mein Projekt mit einer Persistenz-Lösung zu erweitern, ist, inde
 ## 2.5
 
 - [x] Grob Planen welche Tabellen ich erstellen muss
-- [x] Alle 3 Tabellen erstellen
+- [x] Alle Tabellen erstellen
 
-✍️ Heute habe ich... (50-100 Wörter)
+Heute habe ich grob geplant, wie ich die Tabellen und den bestehenden Code interagieren möchte. Am Anfang hatte ich Mühe, eine Lösung dazu zu finden, doch nach langem Nachdenken kam ich zu folgender Idee: Ich würde 3 Tabellen erstellen, die 1 für die Gerichte, also wie sie heissen. Die 2te Tabelle würde für die Optionen, die man Auswählen kann, beim Generator und dann sind die Optionen in der Tabelle notiert, die ich im code vorhanden habe. Die 3te Tabelle würde die erste und zweite zusammen mit ihrer ID verbinden. Nachdem ich auf diese Idee gekommen bin, setzte ich sie in SQL um und erstellte die 3 Tabellen.
 
-☝️ Vergessen Sie nicht, Ihr bestehendes Projekt und die Neuerungen von heute hochzuladen. Beschreiben Sie eindeutig, was heute an Code dazugekommen ist.
 
 ## 9.5 Kernfunktionalität
 
