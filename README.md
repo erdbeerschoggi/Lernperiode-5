@@ -4,14 +4,14 @@
 
 ## Grob-Planung
 
-Wie können Sie Ihr Projekt aus der Lernperiode 4 um eine Persistenz-Lösung erweitern? Was gibt es zu speichern, was für Tabellen brauchen Sie und wie muss der bestehende Code mit diesen interagieren?
+Wie können Sie Ihr Projekt aus der Lernperiode 4 um eine Persistenz-Lösung erweitern? Was gibt es zu speichern, was für Tabellen brauchen Sie und wie muss der bestehende Code mit diesen interagieren? 
 
-
+Meine Idee, um mein Projekt mit einer Persistenz-Lösung zu erweitern, ist, indem ich eine Tabelle für die Gerichte erstelle, eine für alle Optionen und dann noch eine Tabelle, die Gerichte und die Optionen verbindet.
 
 ## 2.5
 
-- [ ] ...
-- [ ] ...
+- [x] Grob Planen welche Tabellen ich erstellen muss
+- [ ] Alle 3 Tables erstellen
 
 ✍️ Heute habe ich... (50-100 Wörter)
 
