@@ -6,7 +6,7 @@
 
 Wie können Sie Ihr Projekt aus der Lernperiode 4 um eine Persistenz-Lösung erweitern? Was gibt es zu speichern, was für Tabellen brauchen Sie und wie muss der bestehende Code mit diesen interagieren? 
 
-Meine Idee, um mein Projekt mit einer Persistenz-Lösung zu erweitern, ist, indem ich eine Tabelle für die Gerichte erstelle, eine für alle Optionen und dann noch eine Tabelle, die Gerichte und die Optionen verbindet. Also die Tabelle Gerichte beinhaltet dann alle Gerichte, die es hat und hat dazu eine ID, bei der Tabelle Optionen wird es dann ähnlich funktionieren, und zwar für jede Option hat es eine Spalte und dann wie bei den Gerichten eine ID und dann noch die 3te Tabelle Verbindung diese beinhaltet dann die ID von den Gerichten und die ID von den Optionen.
+Meine Idee, um mein Projekt mit einer Persistenz-Lösung zu erweitern, ist, indem ich eine Tabelle für die Gerichte erstelle, eine für alle Optionen und dann noch eine Tabelle, die Gerichte und die Optionen verbindet. Also die Tabelle Gerichte beinhaltet dann alle Gerichte, die es hat und hat dazu eine ID, bei der Tabelle Optionen wird es dann ähnlich funktionieren, und zwar für jede Option hat es eine Spalte und dann wie bei den Gerichten eine ID und dann noch die 3te Tabelle Verbindung diese beinhaltet dann die ID von den Gerichten und die ID von den Optionen. Der Sinn dahinter ist, dass man alle Optionen und ihre Gerichte sehen kann.
 
 ## 2.5
 
@@ -18,8 +18,8 @@ Heute habe ich grob geplant, wie ich die Tabellen und den bestehenden Code inter
 
 ## 9.5 Kernfunktionalität
 
-- [ ] ... (dieses AP sollte zur Hälfte offline, also ohne Laptop zu bearbeiten sein — beispielsweise ein Datenmodell?)
-- [ ] ...
+- [ ] Code mit der SQL Tabelle verbinden
+- [ ] 
 - [ ] ...
 
 ✍️ Heute habe ich... (50-100 Wörter)
