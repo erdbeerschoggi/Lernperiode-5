@@ -20,7 +20,7 @@ Heute habe ich grob geplant, wie ich die Tabellen und den bestehenden Code inter
 
 - [ ] Code mit der SQL Tabelle verbinden
 - [ ] Wenn man ein neues Gericht hinzufügt im code, dass es in die Tabelle kommt.
-- [ ] Wenn es möglich wäre favoriten kennzeichnen, dann das erstellen.
+- [ ] Nachschauen ob ich alle Spalten in der Tabelle habe die nötig sind.
 
 ✍️ Heute habe ich... (50-100 Wörter)
 
