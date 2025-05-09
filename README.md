@@ -22,16 +22,14 @@ Heute habe ich grob geplant, wie ich die Tabellen und den bestehenden Code inter
 - [ ] Wenn man ein neues Gericht hinzufügt im code, dass es in die Tabelle kommt.
 - [x] Nachschauen ob ich alle Spalten in der Tabelle habe die nötig sind.
 
-
-
-☝️ Vergessen Sie nicht, bis einen ersten Code auf github hochzuladen
+Heute habe ich SQLite mit Visual Studio verknüpft. Danach war es notwendig, die Tabellen auf SQLite zu erstellen, wie ich es bereits letztes Mal auf ms sql getan habe. Ich habe bemerkt, dass eine Tabelle ausreichend wäre, daher löschte ich die vorherige und erstellte lediglich eine Tabelle. Diese hat eine ID, die Gerichte und Optionen. Ich konnte nicht sehr viel coden, ich habe bloss den SQLite verbunden. Ich konnte noch nicht richtig schauen, ob neue Gerichte hinzugefügt werden können, da ich noch nicht die Werte in der Tabelle speichern kann. Ich habe versucht herauszufinden  wie das gehen könnte, aber habe noch keine Lösung gefunden.
 
 ## 16.5 Kernfunktionalität und Ausbau
 
-- [ ] ...
-- [ ] ...
-- [ ] ...
-- [ ] ...
+- [ ] Daten in Tabelle speichern
+- [ ] Wenn man ein neues Gericht hinzufügt im code, dass es in die Tabelle kommt.
+- [ ] Die Kernfunktionalität programmieren.
+- [ ] neuen Code organisieren
 
 ✍️ Heute habe ich... (50-100 Wörter)
 
