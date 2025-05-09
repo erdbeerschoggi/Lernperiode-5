@@ -18,11 +18,11 @@ Heute habe ich grob geplant, wie ich die Tabellen und den bestehenden Code inter
 
 ## 9.5 Kernfunktionalität
 
-- [ ] Code mit der SQL Tabelle verbinden
+- [x] Code mit der SQL Tabelle verbinden
 - [ ] Wenn man ein neues Gericht hinzufügt im code, dass es in die Tabelle kommt.
-- [ ] Nachschauen ob ich alle Spalten in der Tabelle habe die nötig sind.
+- [x] Nachschauen ob ich alle Spalten in der Tabelle habe die nötig sind.
 
-✍️ Heute habe ich... (50-100 Wörter)
+
 
 ☝️ Vergessen Sie nicht, bis einen ersten Code auf github hochzuladen
 
