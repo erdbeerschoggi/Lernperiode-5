@@ -234,7 +234,7 @@
             // button2
             // 
             button2.BackColor = Color.Transparent;
-            button2.Location = new Point(311, 347);
+            button2.Location = new Point(311, 356);
             button2.Name = "button2";
             button2.Size = new Size(112, 34);
             button2.TabIndex = 39;
@@ -245,7 +245,7 @@
             // button1
             // 
             button1.BackColor = Color.Transparent;
-            button1.Location = new Point(264, 392);
+            button1.Location = new Point(277, 396);
             button1.Name = "button1";
             button1.Size = new Size(203, 34);
             button1.TabIndex = 41;

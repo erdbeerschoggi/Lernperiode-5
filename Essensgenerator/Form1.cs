@@ -3,11 +3,14 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Windows.Forms;
+using Microsoft.Data.Sqlite;
 
 namespace smthNew
 {
     public partial class Gericht : Form
     {
+        public SqliteConnection connection;
+
         private List<string> benutzerEingaben = new List<string>();
         private string dateiPfad = "eingaben.txt";
         private Dictionary<string, List<string>> gerichte = new Dictionary<string, List<string>>();
@@ -21,6 +24,7 @@ namespace smthNew
         
         private void button2_Click(object sender, EventArgs e)
         {
+           
             benutzerEingaben.Clear();
             foreach (Control ctrl in Controls)
             {
@@ -30,11 +34,18 @@ namespace smthNew
                 }
             }
             File.WriteAllLines(dateiPfad, benutzerEingaben);
+
+
         }
 
         
         private void Form1_Load(object sender, EventArgs e)
         {
+            InitializeComponent();
+            string connectionString = "C:\\Users\\pioma\\source\\repos\\smthNew\\smthNew\\Essensgenerator_SQLite.db";
+            connection = new SqliteConnection(connectionString);
+            connection.Open();
+
             if (File.Exists(dateiPfad))
             {
                 var gespeicherteEingaben = File.ReadAllLines(dateiPfad);
@@ -51,6 +62,7 @@ namespace smthNew
         
         private void button1_Click(object sender, EventArgs e)
         {
+
             benutzerEingaben.Clear();
 
             
