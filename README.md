@@ -29,7 +29,7 @@ Heute habe ich SQLite mit Visual Studio verknüpft. Danach war es notwendig, die
 - [ ] Daten in Tabelle speichern
 - [ ] Wenn man ein neues Gericht hinzufügt im code, dass es in die Tabelle kommt.
 - [ ] Die Kernfunktionalität programmieren.
-- [ ] neuen Code organisieren
+- [ ] Die angezeigte Warnung in vs verstehen & lösen, sodass das Programm problemlos funktioniert.
 
 ✍️ Heute habe ich... (50-100 Wörter)
 
