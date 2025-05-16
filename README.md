@@ -29,16 +29,14 @@ Heute habe ich SQLite mit Visual Studio verknüpft. Danach war es notwendig, die
 - [ ] Daten in Tabelle speichern
 - [ ] Wenn man ein neues Gericht hinzufügt im code, dass es in die Tabelle kommt.
 - [ ] Die Kernfunktionalität programmieren.
-- [ ] Die angezeigte Warnung in vs verstehen & lösen, sodass das Programm problemlos funktioniert.
+- [x] Die angezeigte Warnung in vs verstehen & lösen, sodass das Programm problemlos funktioniert.
 
-✍️ Heute habe ich... (50-100 Wörter)
-
-☝️ Vergessen Sie nicht, bis einen ersten Code auf github hochzuladen
+Heute habe ich wieder einmal nicht gut arbeiten können. Als ich eine Warnung aufgelöst habe, zeigte sich bloss eine neue Warnung. Also muss ich meistens eine nach der anderen Warnung lösen. Als ich dann alle Warnungen weggebracht hatte und keine Fehler mehr im Code hatte, dachte ich mir, es wird funktionieren, doch das tat es nicht. Denn als ich auf Start drückte, passierte nichts. Ich dachte, es könnte sein, dass ich das habe, weil ich meine Datasource falsch angegeben hatte. Doch als ich das endlich korrigiert habe, blieb es genau gleich. Ich beschäftigte mich mit dem Fehler und bin deshalb noch nicht so weit gekommen. Ich bin mir unsicher, ob die Kernfunktionalität funktioniert, da nichts startet, deswegen kreuze ich das nicht an.
 
 ## 23.5 Abschluss
 
-- [ ] ...
-- [ ] ... (falls Ihnen nichts einfällt: Können Sie mit einem PowerShell-Skript von Ihrer Datenbank regelmäßig ein *backup* erstellen?)
+- [ ] Programm zum laufen bringen
+- [ ] Code strukturieren, unnötiges wegbringen
 - [ ] Reflexion über Ihre Arbeitsweise
 - [ ] Beschreibung des fertigen Projekts mit .gif etc.
 
