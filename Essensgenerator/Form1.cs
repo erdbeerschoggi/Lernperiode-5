@@ -7,6 +7,7 @@ using Microsoft.Data.Sqlite;
 
 namespace smthNew
 {
+  
     public partial class Gericht : Form
     {
         public SqliteConnection connection;
@@ -19,9 +20,46 @@ namespace smthNew
         {
             InitializeComponent();
             InitialisiereGerichte();
+
+            string connectionString = "Data Source=C:\\Users\\pioma\\source\\repos\\smthNew\\smthNew\\Essensgenerator_SQLite.db";
+            connection = new SqliteConnection(connectionString);
+            connection.Open();
+
+            SpeichereGerichteInDatenbank();
         }
 
-        
+        private void SpeichereGerichteInDatenbank()
+        {
+            foreach (var eintrag in gerichte)
+            {
+                string optionen = eintrag.Key;
+
+                foreach (var gerichtName in eintrag.Value)
+                {
+
+                    string checkQuery = "SELECT COUNT(*) FROM gerichte WHERE gericht = @gericht AND optionen = @optionen";
+                    using (var checkCommand = new SqliteCommand(checkQuery, connection))
+                    {
+                        checkCommand.Parameters.AddWithValue("@gericht", gerichtName);
+                        checkCommand.Parameters.AddWithValue("@optionen", optionen);
+
+                        long count = Convert.ToInt64(checkCommand.ExecuteScalar());
+
+                        if (count == 0)
+                        {
+                            string insertQuery = "INSERT INTO gerichte (gericht, optionen) VALUES (@gericht, @optionen)";
+                            using (var insertCommand = new SqliteCommand(insertQuery, connection))
+                            {
+                                insertCommand.Parameters.AddWithValue("@gericht", gerichtName);
+                                insertCommand.Parameters.AddWithValue("@optionen", optionen);
+                                insertCommand.ExecuteNonQuery();
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
         private void button2_Click(object sender, EventArgs e)
         {
            
@@ -41,10 +79,6 @@ namespace smthNew
         
         private void Form1_Load(object sender, EventArgs e)
         {
-            InitializeComponent();
-            string connectionString = "C:\\Users\\pioma\\source\\repos\\smthNew\\smthNew\\Essensgenerator_SQLite.db";
-            connection = new SqliteConnection(connectionString);
-            connection.Open();
 
             if (File.Exists(dateiPfad))
             {
