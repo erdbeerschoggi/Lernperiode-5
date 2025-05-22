@@ -47,6 +47,12 @@ Heute habe ich nach der Ursache gesucht wieso mein Programm nicht funktioniert
 ## Fertiges Projekt
 
 
+
+https://github.com/user-attachments/assets/f54b6d70-b3d8-4480-a6ec-7a5a5b5562fd
+
+
+
+
 ## Reflexion
 
 ✍️ Was ging gut, was ging weniger gut? Was haben Sie gelernt, und was würden Sie bei der nächsten Lernperiode versuchen besser zu machen? Fassen Sie auch einen übergeordneten Vorsatz für Ihr nächstes Jahr im Lernatelier (100 bis 200 Wörter).
