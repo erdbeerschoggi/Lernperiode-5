@@ -35,18 +35,22 @@ Heute habe ich wieder einmal nicht gut arbeiten können. Als ich eine Warnung au
 
 ## 23.5 Abschluss
 
-- [ ] Programm zum laufen bringen
-- [ ] Code strukturieren, unnötiges wegbringen
+- [x] Programm zum laufen bringen
+- [x] Tabelle auf SQLite wieder finden
 - [ ] Reflexion über Ihre Arbeitsweise
 - [ ] Beschreibung des fertigen Projekts mit .gif etc.
 
-✍️ Heute habe ich... (50-100 Wörter)
+Heute habe ich nach der Ursache gesucht wieso mein Programm nicht funktioniert
 
-☝️ Vergessen Sie nicht, bis einen ersten Code auf github hochzuladen
+
 
 ## Fertiges Projekt
 
-✍️ Beschreiben Sie hier, wie Ihr Projekt am Ende aussieht, und fügen Sie mindestens ein .gif ein.
+
+https://github.com/user-attachments/assets/dff09745-69a3-4bbf-a38c-c4315127aaa0
+
+
+
 
 ## Reflexion
 
