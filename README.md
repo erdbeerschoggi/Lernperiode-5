@@ -37,22 +37,20 @@ Heute habe ich wieder einmal nicht gut arbeiten können. Als ich eine Warnung au
 
 - [x] Programm zum laufen bringen
 - [x] Tabelle auf SQLite wieder finden
-- [ ] Reflexion über Ihre Arbeitsweise
-- [ ] Beschreibung des fertigen Projekts mit .gif etc.
+- [x] Reflexion über Ihre Arbeitsweise
+- [x] Beschreibung des fertigen Projekts mit .gif etc.
 
-Heute habe ich nach der Ursache gesucht wieso mein Programm nicht funktioniert
-
-
+Heute habe ich nach der Ursache gesucht, wieso mein Programm nicht funktioniert. Ich habe herausgefunden, dass ich die Tabelle im Code falsch benannt habe und änderte das und löschte unnötigen Code, der die Funktion blockierte, und dann lief der Code wieder. Sobald ich die DB neu geladen hatte, waren alle Daten drinnen.
 
 ## Fertiges Projekt
 
+In dieser Lernperiode habe ich eine Datenbank für meinen Essensgenerator erstellt. Bevor ich die Datenbank erkläre, hier noch eine Erklärung zum Essensgenerator: Der Essensgenerator enthält 3 Kategorien, aus denen man auswählen kann. In jeder Kategorie wählt man eine Option aus. Nachdem man alle 3 Optionen ausgewählt hat, klickt man auf "OK", um die Eingabe zu speichern und die Gerichte zu generieren. Danach erhält man einen Schlüssel für die ausgewählten Optionen und bekommt Gerichtsvorschläge in einer Messagebox angezeigt. Wenn man fertig ist, klickt man auf "OK" in der Messagebox, um zur Form zurückzukehren. Wenn man erneut Gerichte generieren möchte, muss man auf "Restart" klicken, um die Auswahl zurückzusetzen und erneut Optionen auszuwählen. 
+Die Datenbank habe ich erstellt, sodass alle Optionen und alle Gerichte dazu, die es hat, im code automatisch in die DB gespeichert werden. Also jedes einzelne Gericht wird separat in der DB gespeichert.
 
-
-https://github.com/user-attachments/assets/f54b6d70-b3d8-4480-a6ec-7a5a5b5562fd
-
+https://github.com/user-attachments/assets/29a6a3c6-2a8b-41c8-a7b7-4324123f1a92
 
 
 
 ## Reflexion
 
-✍️ Was ging gut, was ging weniger gut? Was haben Sie gelernt, und was würden Sie bei der nächsten Lernperiode versuchen besser zu machen? Fassen Sie auch einen übergeordneten Vorsatz für Ihr nächstes Jahr im Lernatelier (100 bis 200 Wörter).
+Ich fand die Erstellung der Datenbank, jedoch war die Verbindung ein wenig kompliziert. Ich wusste nicht genau, wie das geht, und folgte einfach dem Code vom Herrn Colic. Doch es gab Fehler und dann, wenn es keine hatte, konnte mein code nicht gestartet werden. Ich kann nicht sehr viel zu dieser Lernperiode sagen, weil es sich so anfühlt, als ob ich nicht vieles gemacht habe. Durch die ersten 3 male habe ich nicht wirklich viel machen können, doch beim 4. mal fand ich es fertig und deswegen fand ich meine Arbeit in dieser Lernperiode ein wenig schlecht. Die Lernpakete von dieser Lernperiode fand ich eigentlich sehr gut.
